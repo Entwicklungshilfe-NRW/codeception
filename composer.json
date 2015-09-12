@@ -1,0 +1,13 @@
+{
+    "name": "rolandgolla/codeception",
+    "description": "Test for TYPO3 Page",
+    "require": {
+        "codeception/codeception": "~2.1"
+    },
+    "authors": [
+        {
+            "name": "Roland Golla",
+            "email": "rolandgolla@gmail.com"
+        }
+    ]
+}
