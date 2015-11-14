@@ -7,7 +7,7 @@ $I->click('#solr-website-search button');
 $I->waitForElement('h2');
 $I->see('Migrating Drupal to TYPO3');
 
-$I->wantTo('check mouse over');
+$I->wantTo('check autocomplete');
 $I->amOnPage('/');
 $I->fillField('#form-element-21', 'rel');
 $I->waitForElement('.ui-autocomplete > li');
