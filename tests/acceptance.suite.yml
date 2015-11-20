@@ -12,10 +12,10 @@ modules:
         - \Helper\Acceptance
     config:
       PhpBrowser:
-        url: 'http://typo3.org'
+        url: 'https://hunsrueck-mosel-privat.kreativrudel.de'
       WebDriver:
         window_size: 1024x768
-        url: 'http://typo3.org'
+        url: 'https://hunsrueck-mosel-privat.kreativrudel.de'
         browser: 'chrome'
 extensions:
     enabled:
