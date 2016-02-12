@@ -12,7 +12,7 @@ modules:
   config:
     WebDriver:
       window_size: 1024x768
-      url: 'http://typo3.org'
+      url: 'https://www.gesundheitsinformation.de'
       browser: 'chrome'
 extensions:
   enabled:
