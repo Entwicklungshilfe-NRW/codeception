@@ -7,12 +7,9 @@
 class_name: AcceptanceTester
 modules:
     enabled:
-        - PhpBrowser
         - WebDriver
         - \Helper\Acceptance
     config:
-      PhpBrowser:
-        url: 'http://typo3.org'
       WebDriver:
         window_size: 1024x768
         url: 'http://typo3.org'
